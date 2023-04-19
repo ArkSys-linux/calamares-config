@@ -1,1 +1,1 @@
-# Calamares configuration
+# Calamares ArkSys configuration
