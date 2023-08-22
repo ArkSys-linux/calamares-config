@@ -19,7 +19,7 @@ strings:
     versionedName:       ArkSys
     shortVersionedName:  ArkSys
     bootloaderEntryName: ArkSys
-    productUrl:          https://github.com/david7ce/arksys-iso
+    productUrl:          https://github.com/arksys-os/arksys-iso
 
 
 uploadServer :
