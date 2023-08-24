@@ -1,17 +1,17 @@
 # Maintainer: David7ce
-pkgname=arksys-calamares-config
+pkgname=(arksys-calamares-config)
 _destname="/etc"
 pkgdesc="Calamares installer conf for Arksys"
 pkgver=23.08
 pkgrel=20
 arch=('any')
-url="https://github.com/arksys-os/"
+url="file://${PWD}" # url="https://github.com/arksys-os/"
 license=('GPL3')
 makedepends=('git')
 depends=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-source=(${pkgname}::"git+${url}/${pkgname}")
+source=(${pkgname}::"git+${url}")  # source=(${pkgname}::"git+${url}/${pkgname}")
 sha256sums=('SKIP')
 
 package() {
