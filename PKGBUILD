@@ -1,5 +1,5 @@
 # Maintainer: David7ce
-pkgname=calamares-arksys-config
+pkgname=arksys-calamares-config
 _destname="/etc"
 pkgdesc="Calamares installer conf for Arksys"
 pkgver=23.08
