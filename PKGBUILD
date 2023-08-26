@@ -18,6 +18,6 @@ package() {
 	install -dm755 ${pkgdir}${_destname}
 	cp -r ${srcdir}/${pkgname}${_destname}/* ${pkgdir}${_destname}
 	rm ${srcdir}/${pkgname}/build.sh
-	rm ${srcdir}/${pkgname}/README.md
+	rm ${srcdir}/${pkgname}/README.MD
 	rm ${srcdir}/${pkgname}/PKGBUILD
 }
