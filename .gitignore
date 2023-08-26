@@ -1,5 +1,5 @@
-build.sh
+arksys-calamares-config/
 pkg/
 src/
 *.pkg.tar.zst
-
+build.sh
